@@ -2,8 +2,12 @@ import React from 'react';
 import { Text, View, Image, TextInput, StyleSheet } from 'react-native';
 
 const SearchBar = ({
-    params,
+    term,
+    onTermChange,
+    onTermSubmit,
 }) => {
+
+
     return (
         <View style={styles.containerStyle}>
             <Image
@@ -17,6 +21,11 @@ const SearchBar = ({
                 underlineColorAndroid={'transparent'}
                 autoCapitalize={'none'}
                 autoCorrect={false}
+                value={term}
+                // onChangeText={text=> onTermChange(text)}
+                // onEndEditing={() => onTermSubmit()}
+                onChangeText={onTermChange}
+                onEndEditing={onTermSubmit}
             />
         </View>
     );
