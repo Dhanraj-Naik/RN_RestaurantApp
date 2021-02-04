@@ -1,0 +1,2 @@
+export const YELP_CLIENT_ID = 'xE-5boTr_CzjpEO8qqRFrQ';
+export const YELP_API_KEY = 'JEbzuCgOAZvoRb7wHwibTuo2N4aY_OyKeK_29DzQ0cwy-s01F7GcbJ3rSS4Jotex_PYdiOfmtTf7q3EqTD0KAgAf0HK1Rz1AqE3jfPS9dDVbiwRO2JPwFvZcptmuXnYx';
