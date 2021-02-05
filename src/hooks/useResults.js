@@ -15,7 +15,8 @@ export default () => {
                 params: {
                     limit: 50,
                     term: searchTerm,
-                    location: 'san jose',
+                    // location: 'san jose',
+                    location: 'usa',
                 },
             });
             console.log('api succ: ', response.data.businesses);
